@@ -8,7 +8,7 @@ body {
 
 .banner-image
 {
-  background-size: cover;
+  background-size: contain;
 }
 .yellow-box{
   background-color: #ffdc2d;
@@ -25,19 +25,25 @@ li{
 }
 
 .yellow-image{
+  position: relative;
+  top: -160px;
+  left: 170px;
   border-radius: 50%;
-  padding-left: 20px;
+  padding-left: 0px;
+  width: 180px;
+  height: 180px;
 
 
 }
 
 .swiss-image{
-  padding-left: 0px;
+  position: relative;
+  top: -160px;
   width: 200px;
   height: 200px;
-  border-top: 0px;
-  float: right;
-  padding-bottom: 0px;
+  left:350px;
+  // float: right;
+
 }
 
 
@@ -49,11 +55,81 @@ li{
 
 }
 
-.title{
-  min-height: 450px;
+.test{
+  // min-height: 450px;
   color: black;
-  padding:20px 30px;
-  margin-top:30px;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
+  position: relative;
+  top: -20px;
+  //padding:-10px -20px;
+  // margin-top:50px;
+  // border-top-right-radius: 10px;
+  // border-top-left-radius: 10px;
+  width:11em;
+  // border:1px solid #000000;
+  word-wrap:break-word;
+
 }
+
+.title{
+  color: black;
+  padding:10px 20px;
+  min-height: 450px;
+
+}
+
+.again{
+  // min-height: 450px;
+  color: black;
+  //padding:-10px -20px;
+  //margin-top:50px;
+  // border-top-right-radius: 10px;
+  //border-top-left-radius: 10px;
+  width:11em;
+  // border:1px solid #000000;
+  word-wrap:break-word;
+  position:relative;
+  top: -310px;
+  left: 380px;
+}
+
+.newsletter-box{
+  background-color: #ffdc2d;
+
+  padding-top: 24px;
+  padding-bottom: 20px;
+
+  // position:relative;
+  // left: -50px;
+
+.flaschen{
+  width: 264px;
+  height: 264px;
+  position:relative;
+  left: 20px;
+  top: -210px;
+
+}
+
+.lass{
+  word-wrap:break-word;
+  //position:relative;
+  //max-height: 50px;
+  width: 600px;
+  text-align: left;
+  position:relative;
+  left: 10px;
+
+}
+
+.sirop{
+  position:relative;
+  left: 10px;
+
+}
+
+.button{
+  position:relative;
+  top: 10px;
+  left: 10px;
+}
+  }
