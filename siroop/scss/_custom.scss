@@ -3,7 +3,9 @@
 // }
 
 body {
-  margin: 3rem;
+  margin: 0rem;
+
+
 }
 
 .banner-image
@@ -49,7 +51,7 @@ li{
 
 
 .promoted-item {
-  border: 1px grey solid;
+  border: 1px lightgrey solid;
   min-height: 300px;
   text-align:center;
 
@@ -94,19 +96,29 @@ li{
 
 .newsletter-box{
   background-color: #ffdc2d;
-
-  padding-top: 24px;
+  padding: 50px 50px;
+  height: 200px;
+  padding-top: 20px;
   padding-bottom: 20px;
 
-  // position:relative;
-  // left: -50px;
 
+// .newsletter-box{
+//   background-color: #ffdc2d;
+//
+//   padding-top: 24px;
+//   padding-bottom: 20px;
+//
+//   // position:relative;
+//   // left: -50px;
+//
 .flaschen{
-  width: 264px;
-  height: 264px;
   position:relative;
   left: 20px;
-  top: -210px;
+  top: -194px;
+  width: 264px;
+  //max-width: 100%;
+  //height: auto;
+  display: inline-block;
 
 }
 
@@ -114,22 +126,26 @@ li{
   word-wrap:break-word;
   //position:relative;
   //max-height: 50px;
-  width: 600px;
+  max-width: 550px;
   text-align: left;
   position:relative;
   left: 10px;
+  top: -20px;
+
 
 }
 
 .sirop{
   position:relative;
   left: 10px;
+  top: -20px;
+
 
 }
 
 .button{
   position:relative;
-  top: 10px;
+  top: -10px;
   left: 10px;
 }
-  }
+ }
